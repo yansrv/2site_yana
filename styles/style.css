@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+}
+@font-face {
+    font-family: "NeutralFace"; 
+    src: url("../styles/media/fonts/NeutralFace.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+.perviy .menu .logo{
+    font-family: "NeutralFace"; 
+    font-size: 28px;
+}
+.perviy .menu .navigation .odin{
+    display: flex;
+    flex-direction: row;
+}
+.perviy .menu .navigation .odin p{
+    padding-left: 15px;
+    font-family: "NeutralFace"; 
+}
+.perviy .menu .navigation .dva i{
+    padding-right: 30px;
+}
+.perviy .menu .navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.perviy .vpalke{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.perviy .vpalke{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.perviy .tekst{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0 23px 0;
+}
+.perviy .vpalke .conteuner .tekst a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    line-height: 14px;
+}
+
+
+
+.perviy .infa .texxt{
+    display: flex;
+    align-items: center;
+    height: 138px;
+    
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+.perviy .infa h2{
+    font-family: 'Neutral Face';
+    font-size: 138px;
+}
+.perviy .infa p{
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 75px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.section-monochrom{
+    margin-top: 167px;
+}
+.section-monochrom .title .h2{
+    font-family: 'Neutral Face';
+    font-size: 70px;
+
+}
